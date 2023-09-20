@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./dist/style.css">
+    <link rel="stylesheet" href="dist/style.css">
 </head>
 
 <body>
@@ -41,16 +41,38 @@
 
             <div class="flex flex-col gap-6 lg:flex-row">
                 <div class="img-left relative rounded-3xl overflow-hidden hover:scale-95 transition-transform">
-                    <img src="/dist/img/image1.png" alt="Nothing Phone">
+                    <img src="dist/img/image1.png" alt="Nothing Phone">
                     <p class="absolute bottom-6 left-8 font-bold text-lg">Branding Project</p>
                 </div>
                 <div class="img-right relative rounded-3xl overflow-hidden hover:scale-95 transition-transform">
-                    <img src="/dist/img/image2.png" alt="Nothing Phone">
+                    <img src="dist/img/image2.png" alt="Nothing Phone">
                     <p class="absolute bottom-6 left-8 font-bold text-lg">Branding Project</p>
                 </div>
             </div>
 
         </section>
+
+        <section class="container flex flex-col justify-center items-center my-32">
+            <p class="text-sm font-extralight uppercase text-zinc-400 tracking-[6px]">about me</p>
+            <img src="dist/img/avatar.png" alt="Donnie" class="my-12 w-56">
+            <p class="max-w-[32ch] px-12 text-3xl text-zinc-800 font-medium lg:px-0">Hi I’m Donnie and I am passionate
+                about everything that has to do with Digital Design and Art Direction. I enjoy working
+                with agencies and enthusiastic people who want to solve problems through beautiful designs and
+                experiences.</p>
+        </section>
+
+        <section class="container flex flex-col items-center p-8 bg-zinc-900 text-white rounded-3xl">
+            <p class="mt-20 text-md font-extralight uppercase text-zinc-300 tracking-[6px]">what i'm doing</p>
+            <ul class="mt-12 mb-24 space-y-10 text-center text-4xl font-medium uppercase md:text-5xl lg:text-6xl">
+                <li class="transition-transform duration-300 md:hover:translate-x-10">branding design</li>
+                <li class="transition-transform duration-300 md:hover:-translate-x-10">ui/ux design</li>
+                <li class="transition-transform duration-300 md:hover:translate-x-10">development</li>
+                <li class="transition-transform duration-300 md:hover:-translate-x-10">digital marketing</li>
+            </ul>
+
+            
+        </section>
+
     </main>
 </body>
 
